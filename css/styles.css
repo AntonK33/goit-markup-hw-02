@@ -1,3 +1,123 @@
-ul{
-    s
+:root{
+--primary-text-color: #757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--primary-bg-color:#E5E5E5;
+--primary-white-color:#ffffff;
+}
+
+
+
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--title-text-color);
+    font-family: Roboto, sans-serif;}
+
+
+
+.logo{
+    font : raleway
+    font stile bold
+    font size 26px
+    line height 1.2
+   
+}
+ 
+
+.site-nav{
+Font style: Medium
+Font size: 14px
+Line height: 1.14
+}
+
+
+
+.nav-title{
+    color:var(--accent-color);
+
+   Font style: Medium
+   Font size: 14px
+   Line height: 1.14
+}
+ 
+
+.link:hover,
+.link:focus{
+    color:tomato;
+    
+}
+.site-nav .link.current{
+    font : 14px
+    line height 1.14
+}  
+
+.link:active{
+    color: teal;
+}
+
+/*Герой*/
+
+
+
+.title-head{
+    
+Font size: 44px
+Line height: 1.36
+Letter spacing: 6%
+}
+
+
+.button{
+    color: white;
+    background-color: var(--accent-color);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+.text-head{
+    Font style: Bold
+Font size: 14px
+Line height: 1.14
+}
+
+
+
+.text-main{
+color: var(--primary-text-color);
+Font style: Regular
+Font size: 14px
+Line height: 1.7
+}
+
+
+.title-maid{
+    Font style: Bold
+Font size: 36px
+Line height: 1.16
+}
+
+
+.title-team{
+      Font style: Bold
+Font size: 36px
+Line height: 1.16 
+}
+
+
+
+.team-person{
+    Font style: Medium
+Font size: 16px
+Line height: 1.18
+}
+
+
+
+.person-job{
+    color: var(--primary-text-color);
+    Font style: Regular
+Font size: 16px
+Line height: 1.18
 }
