@@ -73,6 +73,7 @@ Letter spacing: 6%
     background-color: var(--accent-color);
     border-color: transparent;
     cursor: pointer;
+    font-family: inherit;
 }
 
 
@@ -137,4 +138,13 @@ Line height: 2
 Font style: Regular
 Font size: 16px
 Line height: 1.9
+}
+
+
+
+.button-type{
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    font-family: inherit;
 }
