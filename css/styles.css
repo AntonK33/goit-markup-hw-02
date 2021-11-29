@@ -12,7 +12,10 @@
 body{
     background-color:var(--primary-bg-color);
     color:var(--title-text-color);
-    font-family: "Roboto", sans-serif;}
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.67;
+}
 
 
 
@@ -23,6 +26,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
    
 }
  
@@ -50,6 +54,7 @@ body{
     
 }
 .site-nav .link.current{
+    font-weight: 500;
     font-size:14px;
     line-height: 1.14;
 }  
@@ -159,4 +164,7 @@ body{
     Line-height: 26px;
 }
 
+.list{
+    list-style: none;
+}
 
