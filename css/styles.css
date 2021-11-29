@@ -10,35 +10,37 @@
 
 
 body{
-    background-color: var(--primary-bg-color);
-    color: var(--title-text-color);
-    font-family: Roboto, sans-serif;}
+    background-color:var(--primary-bg-color);
+    color:var(--title-text-color);
+    font-family: "Roboto", sans-serif;}
+
+
 
 
 
 .logo{
-    font : raleway
-    font stile bold
-    font size 26px
-    line height 1.2
+    font-family: "Ralewey",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
    
 }
  
 
 .site-nav{
-Font style: Medium
-Font size: 14px
-Line height: 1.14
+    font-weight: 500;
+    Font-size: 14px;
+    Line-height:1.14;
 }
 
 
 
 .nav-title{
+  font-family: "Roboto";
     color:var(--accent-color);
-
-   Font style: Medium
-   Font size: 14px
-   Line height: 1.14
+   font-weight: 500;
+   Font-size:14px;
+   Line-height:1.14;
 }
  
 
@@ -48,8 +50,8 @@ Line height: 1.14
     
 }
 .site-nav .link.current{
-    font : 14px
-    line height 1.14
+    font-size:14px;
+    line-height: 1.14;
 }  
 
 .link:active{
@@ -61,90 +63,100 @@ Line height: 1.14
 
 
 .title-head{
-    
-Font size: 44px
-Line height: 1.36
-Letter spacing: 6%
+   font-weight:900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align:center;
 }
 
 
 .button{
     color: white;
-    background-color: var(--accent-color);
-    border-color: transparent;
-    cursor: pointer;
-    font-family: inherit;
+    background-color:var(--accent-color);
+    border-color:transparent;
+    cursor:pointer;
+    font-family:inherit;
+    font-weight: 700;
+    Font-size: 16px;
+    Line-height: 1.9;
+    
+    
 }
 
 
 .text-head{
-    Font style: Bold
-Font size: 14px
-Line height: 1.14
+   font-weight: 700;
+   Font-size:14px;
+   Line-height:1.14;
 }
 
 
 
 .text-main{
-color: var(--primary-text-color);
-Font style: Regular
-Font size: 14px
-Line height: 1.7
+   color:var(--primary-text-color);
+   Font-style:Regular;
+   Font-size:14px;
+   Line-height:1.7;
 }
 
 
 .title-maid{
-    Font style: Bold
-Font size: 36px
-Line height: 1.16
+   font-weight: 700;
+   Font-size:36px;
+   Line-height:1.16;
 }
 
 
 .title-team{
-      Font style: Bold
-Font size: 36px
-Line height: 1.16 
+   Font: style 700;
+   Font-size:36px;
+   Line-height:1.16 ;
 }
 
 
 
 .team-person{
-    Font style: Medium
-Font size: 16px
-Line height: 1.18
+   font-weight: 500;
+   Font-size:16px;
+   Line-height:1.18;
 }
 
 
 
 .person-job{
-    color: var(--primary-text-color);
-    Font style: Regular
-Font size: 16px
-Line height: 1.18
+   color: var(--primary-text-color);
+   font-weight: 400;
+   Font-size: 16px;
+   Line-height: 1.18;
 }
 
 
 
 
 .image-title{
-Font style: Bold
-Font size: 18px
-Line height: 2
+    font-weight: 700;
+    Font-size: 18px;
+    Line-height: 2;
 }
 
 
 
 .image-text{
-Font style: Regular
-Font size: 16px
-Line height: 1.9
+    font-weight: 400;
+    Font-size: 16px;
+    Line-height: 1.9;
 }
 
 
 
 .button-type{
-    color:var(--title-text-color)
+    color:var(--title-text-color);
     border-color: transparent;
     cursor: pointer;
     font-family: inherit;
+    font-weight: 500;
+    Font-size: 16px;
+    Line-height: 26px;
 }
+
+
