@@ -12,7 +12,7 @@ body{
     
     color:var(--title-text-color);
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.67;
 }
 
@@ -46,20 +46,20 @@ body{
 
 .site-nav{
     font-weight: 500;
-    font-size: 14px;
-    line-height:1.14;
+       line-height:1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
-    color: inherit;
+    color:var(--title-text-color)
 }
 
-
+.nav-color{
+    color: var(--title-text-color);
+}
 
 .nav-title{
   
    font-weight: 500;
-   font-size:14px;
-   line-height:1.14;
+     line-height:1.14;
    text-decoration: none;
    color: #212121;
 
@@ -68,7 +68,6 @@ body{
 .a-nav{
     color: #757575;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -84,8 +83,7 @@ body{
 }
 .site-nav .link.current{
     font-weight: 500;
-    font-size:14px;
-    line-height: 1.14;
+     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--accent-color);
 }  
@@ -132,7 +130,6 @@ color: #FFFFFF;
 
 .text-head{
     font-weight: 700;
-    font-size:14px;
     line-height:1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -144,7 +141,6 @@ color: #FFFFFF;
 
 .text-main{
    color:var(--primary-text-color);
-   font-size:14px;
    line-height:1.7;
    letter-spacing: 0.03em;
 
@@ -250,7 +246,7 @@ color: white;
 .address{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+   
     line-height: 1.7;
     /* or 171% */
     letter-spacing: 0.03em;
@@ -260,7 +256,7 @@ color: white;
 .a-address{
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+   
     line-height: 1.7;
     /* or 171% */
     letter-spacing: 0.03em;
